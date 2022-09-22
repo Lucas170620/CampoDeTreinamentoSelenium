@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: test.TesteCampoTreinamento
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.046 s - in test.TesteCampoTreinamento

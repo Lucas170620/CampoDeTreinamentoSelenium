@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: test.TesteSincronismo
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 39.782 s <<< FAILURE! - in test.TesteSincronismo
+testeSincronismo(test.TesteSincronismo)  Time elapsed: 39.782 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: nomeCampo (tried for 30 second(s) with 500 milliseconds interval)
+	at test.TesteSincronismo.testeSincronismo(TesteSincronismo.java:33)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #nomeCampo
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IBM-PF3R48XC', ip: '192.168.15.106', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [75727822-b69a-4c7d-aa07-420cc14e6c9a, findElement {using=id, value=nomeCampo}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:59969, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2128, moz:profile: C:\Users\017543~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59969/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75727822-b69a-4c7d-aa07-420cc14e6c9a
+	at test.TesteSincronismo.testeSincronismo(TesteSincronismo.java:33)
+

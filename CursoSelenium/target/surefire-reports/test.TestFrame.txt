@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: test.TestFrame
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.209 s <<< FAILURE! - in test.TestFrame
+scrollJavaScript(test.TestFrame)  Time elapsed: 1.207 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #frame2
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IBM-PF3R48XC', ip: '192.168.15.106', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [176b4e07-2118-45ce-969c-f198271bf61f, findElement {using=id, value=frame2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:50260, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34696, moz:profile: C:\Users\017543~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 176b4e07-2118-45ce-969c-f198271bf61f
+	at test.TestFrame.scrollJavaScript(TestFrame.java:35)
+

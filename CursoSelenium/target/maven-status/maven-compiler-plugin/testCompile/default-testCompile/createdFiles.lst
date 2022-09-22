@@ -1,0 +1,15 @@
+test\TestFrame.class
+test\TesteSincronismo.class
+core\BasePage.class
+test\TesteCampoTreinamento.class
+core\BaseTest.class
+core\DriverFactory.class
+core\Propriedades.class
+core\Propriedades$Browsers.class
+test\TestAlert.class
+core\DSL.class
+core\DriverFactory$2.class
+test\TesteJanela.class
+core\DriverFactory$1.class
+pages\CampoTreinamentoPage.class
+suites\SuiteTest.class

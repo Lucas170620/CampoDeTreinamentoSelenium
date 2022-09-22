@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: test.TestAlert
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 18.87 s <<< FAILURE! - in test.TestAlert
+alertConfirmTest(test.TestAlert)  Time elapsed: 18.869 s  <<< ERROR!
+org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IBM-PF3R48XC', ip: '192.168.15.106', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [176b4e07-2118-45ce-969c-f198271bf61f, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:50260, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34696, moz:profile: C:\Users\017543~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 176b4e07-2118-45ce-969c-f198271bf61f
+	at test.TestAlert.alertConfirmTest(TestAlert.java:39)
+
+alertConfirmTest(test.TestAlert)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.UnhandledAlertException: 
+Dismissed user prompt dialog: Negado: 
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IBM-PF3R48XC', ip: '192.168.15.106', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [176b4e07-2118-45ce-969c-f198271bf61f, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:50260, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 34696, moz:profile: C:\Users\017543~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 176b4e07-2118-45ce-969c-f198271bf61f
+
